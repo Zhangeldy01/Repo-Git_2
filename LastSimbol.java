@@ -7,9 +7,9 @@ import java.util.Scanner;
 public class LastSimbol {
     public static void main(String [] args) {
         Scanner sc1 = new Scanner(System.in);
-        System.out.println("Enter the line: ");
+        System.out.println("Введите строку: ");
         String str = sc1.nextLine();
-        System.out.println("Last character entered: " + str.charAt(str.length() - 1));
+        System.out.println("Последний введенный символ: " + str.charAt(str.length() - 1));
 
     }
 }
